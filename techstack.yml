@@ -1,0 +1,565 @@
+repo_name: LokeshJonnakuti/LLM-VM
+report_id: c47f9e0fa8ab5c34bd6040a831d871fc
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-14T10:53:10+00:00'
+requested_by: daspartho
+provider: github
+branch: main
+detected_tools_count: 32
+tools:
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/src/llm_vm/agents/REBEL/requirements.txt
+  detection_source: src/llm_vm/agents/REBEL/requirements.txt
+  last_updated_by: AB3000
+  last_updated_on: 2023-05-23 04:45:14.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/src/llm_vm/agents/REBEL/requirements.txt
+  detection_source: src/llm_vm/agents/REBEL/requirements.txt
+  last_updated_by: AB3000
+  last_updated_on: 2023-05-23 04:45:14.000000000 Z
+- name: LLaMA
+  description: A foundational, 65-billion-parameter large language model (By Facebook)
+  website_url: https://ai.meta.com/blog/large-language-model-llama-meta-ai/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Carter Tazio Schonwald
+  last_updated_on: 2023-07-10 23:06:20.000000000 Z
+- name: LlamaIndex
+  description: A central interface to connect your LLMs with external data
+  website_url: https://gpt-index.readthedocs.io/en/latest/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48791/default_350cf2fa84700345e34d9eef2ecc1aa29319e91a.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Andrew Nelson
+  last_updated_on: 2023-07-13 22:17:15.000000000 Z
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: 1.22.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/pyproject.toml
+  detection_source: src/llm_vm/agents/REBEL/requirements.txt
+  last_updated_by: AB3000
+  last_updated_on: 2023-05-23 04:45:14.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 0.27.6
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Vik
+  last_updated_on: 2023-11-06 07:18:19.000000000 Z
+- name: Pinecone
+  description: Build high-performance vector search applications
+  website_url: https://www.pinecone.io/
+  version: 2.2.4
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/48784/default_376332a8eee1cdbb0546ca1aaed0b8a7f4d673d7.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: bilal-aamer
+  last_updated_on: 2023-10-22 05:27:26.000000000 Z
+- name: Sentence Transformers
+  description: Multilingual sentence, paragraph, and image embeddings
+  website_url: https://www.sbert.net/
+  version: 2.2.2
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: NLP / Sentiment Analysis
+  image_url: https://img.stackshare.io/service/109224/default_1167b8b1fc15f3526701cde5a789734ae865925d.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Federico Grosso
+  last_updated_on: 2023-08-27 15:50:44.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM
+  detection_source: Repo Metadata
+- name: langchain
+  description: Building applications with LLMs through composability
+  package_url: https://pypi.org/project/langchain
+  version: 0.0.70
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/src/llm_vm/agents/REBEL/requirements.txt
+  detection_source: src/llm_vm/agents/REBEL/requirements.txt
+  last_updated_by: AB3000
+  last_updated_on: 2023-05-23 04:45:14.000000000 Z
+  vulnerabilities:
+  - name: langchain Code Injection vulnerability
+    cve_id: CVE-2023-36095
+    cve_url: https://github.com/advisories/GHSA-gwqq-6vq7-5j86
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.236
+  - name: LangChain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-38896
+    cve_url: https://github.com/advisories/GHSA-92j5-3459-qgp4
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.236
+  - name: LangChain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-38860
+    cve_url: https://github.com/advisories/GHSA-fj32-q626-pjjc
+    detected_date: Dec 8
+    severity: critical
+    first_patched:
+  - name: LangChain vulnerable to code injection
+    cve_id: CVE-2023-29374
+    cve_url: https://github.com/advisories/GHSA-fprp-p869-w6q2
+    detected_date: Dec 8
+    severity: critical
+    first_patched:
+  - name: LangChain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-39659
+    cve_url: https://github.com/advisories/GHSA-prgp-w7vf-ch62
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.325
+  - name: Langchain SQL Injection vulnerability
+    cve_id: CVE-2023-32785
+    cve_url: https://github.com/advisories/GHSA-8h5w-f6q9-wg35
+    detected_date: Dec 8
+    severity: critical
+    first_patched:
+  - name: Langchain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-34541
+    cve_url: https://github.com/advisories/GHSA-6643-h7h5-x9wh
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.247
+  - name: langchain arbitrary code execution vulnerability
+    cve_id: CVE-2023-36258
+    cve_url: https://github.com/advisories/GHSA-2qmj-7962-cjq8
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.247
+  - name: langchain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-36281
+    cve_url: https://github.com/advisories/GHSA-7gfq-f96f-g85j
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.312
+  - name: Langchain vulnerable to arbitrary code execution via the evaluate function
+      in the numexpr library
+    cve_id: CVE-2023-39631
+    cve_url: https://github.com/advisories/GHSA-f73w-4m7g-ch9x
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.308
+  - name: Langchain OS Command Injection vulnerability
+    cve_id: CVE-2023-34540
+    cve_url: https://github.com/advisories/GHSA-x32c-59v5-h7fg
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.225
+  - name: langchain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-36188
+    cve_url: https://github.com/advisories/GHSA-57fc-8q82-gfp3
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.236
+  - name: Langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2023-32786
+    cve_url: https://github.com/advisories/GHSA-6h8p-4hx9-w66c
+    detected_date: Dec 8
+    severity: high
+    first_patched: 0.0.329
+  - name: langchain SQL Injection vulnerability
+    cve_id: CVE-2023-36189
+    cve_url: https://github.com/advisories/GHSA-7q94-qpjr-xpgm
+    detected_date: Dec 8
+    severity: high
+    first_patched:
+  - name: LangChain Server Side Request Forgery vulnerability
+    cve_id: CVE-2023-46229
+    cve_url: https://github.com/advisories/GHSA-655w-fm8m-m478
+    detected_date: Dec 8
+    severity: high
+    first_patched: 0.0.317
+  - name: LangChain directory traversal vulnerability
+    cve_id: CVE-2024-28088
+    cve_url: https://github.com/advisories/GHSA-h59x-p739-982c
+    detected_date: Mar 7
+    severity: low
+    first_patched: 0.0.339
+  - name: langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2024-0243
+    cve_url: https://github.com/advisories/GHSA-h9j7-5xvc-qhg5
+    detected_date: Feb 27
+    severity: low
+    first_patched: 0.1.0
+- name: Werkzeug
+  description: The comprehensive WSGI web application library
+  package_url: https://pypi.org/project/Werkzeug
+  version: 2.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19890/default_87fc2af3f2409064833512bb6fc5b04443a2e6aa.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/src/llm_vm/agents/REBEL/requirements.txt
+  detection_source: src/llm_vm/agents/REBEL/requirements.txt
+  last_updated_by: AB3000
+  last_updated_on: 2023-05-23 04:45:14.000000000 Z
+  vulnerabilities:
+  - name: High resource usage when parsing multipart form data with many fields
+    cve_id: CVE-2023-25577
+    cve_url: https://github.com/advisories/GHSA-xg9f-g7g7-2323
+    detected_date: Feb 16
+    severity: high
+    first_patched: 2.2.3
+  - name: Incorrect parsing of nameless cookies leads to __Host- cookies bypass
+    cve_id: CVE-2023-23934
+    cve_url: https://github.com/advisories/GHSA-px8h-6qxv-m22q
+    detected_date: Feb 16
+    severity: low
+    first_patched: 2.2.3
+- name: PyPDF2
+  description: PDF toolkit
+  package_url: https://pypi.org/project/PyPDF2
+  version: 3.0.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20065/default_bb49fb0188726b8922387d8bb6e9b2cd0c3c0ea9.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Vik
+  last_updated_on: 2023-11-21 13:28:10.000000000 Z
+  vulnerabilities:
+  - name: pypdf and PyPDF2 possible Infinite Loop when a comment isn't followed by
+      a character
+    cve_id: CVE-2023-36464
+    cve_url: https://github.com/advisories/GHSA-4vvm-4w3v-6mr8
+    detected_date: Jul 1
+    severity: moderate
+    first_patched:
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.26.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: abhigya-sodani
+  last_updated_on: 2023-08-19 00:53:28.000000000 Z
+  vulnerabilities:
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: Flask
+  description: A simple framework for building complex web applications
+  package_url: https://pypi.org/project/Flask
+  version: 2.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19834/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/src/llm_vm/agents/REBEL/requirements.txt
+  detection_source: src/llm_vm/agents/REBEL/requirements.txt
+  last_updated_by: AB3000
+  last_updated_on: 2023-05-23 04:45:14.000000000 Z
+- name: MarkupSafe
+  description: Safely add untrusted strings to HTML/XML markup
+  package_url: https://pypi.org/project/MarkupSafe
+  version: 2.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19945/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/src/llm_vm/agents/REBEL/requirements.txt
+  detection_source: src/llm_vm/agents/REBEL/requirements.txt
+  last_updated_by: AB3000
+  last_updated_on: 2023-05-23 04:45:14.000000000 Z
+- name: backoff
+  description: Function decoration for backoff and retry
+  package_url: https://pypi.org/project/backoff
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19988/default_aa331bbc48e2faa54aa26e08880b772595f833b8.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Partho
+  last_updated_on: 2023-09-21 10:40:51.000000000 Z
+- name: bs4
+  description: Dummy package for Beautiful Soup
+  package_url: https://pypi.org/project/bs4
+  version: 0.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19906/default_2aeed05332f0410b54817405c7e8e202a7e763cf.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Carter Tazio Schonwald
+  last_updated_on: 2023-07-10 23:06:20.000000000 Z
+- name: click
+  description: Composable command line interface toolkit
+  package_url: https://pypi.org/project/click
+  version: '8.0'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/src/llm_vm/agents/REBEL/requirements.txt
+  detection_source: src/llm_vm/agents/REBEL/requirements.txt
+  last_updated_by: AB3000
+  last_updated_on: 2023-05-23 04:45:14.000000000 Z
+- name: dynaconf
+  description: The dynamic configurator for your Python Project
+  package_url: https://pypi.org/project/dynaconf
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: dorkitude
+  last_updated_on: 2023-07-19 19:46:54.000000000 Z
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  version: 20.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/src/llm_vm/agents/REBEL/requirements.txt
+  detection_source: src/llm_vm/agents/REBEL/requirements.txt
+  last_updated_by: AB3000
+  last_updated_on: 2023-05-23 04:45:14.000000000 Z
+- name: importlib-metadata
+  description: Read metadata from Python packages
+  package_url: https://pypi.org/project/importlib-metadata
+  version: 6.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20000/default_7c419d5d5f0cfad7886b95266eae7ba305cedacf.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/src/llm_vm/agents/REBEL/requirements.txt
+  detection_source: src/llm_vm/agents/REBEL/requirements.txt
+  last_updated_by: AB3000
+  last_updated_on: 2023-05-23 04:45:14.000000000 Z
+- name: itsdangerous
+  description: Various helpers to pass data to untrusted environments and back
+  package_url: https://pypi.org/project/itsdangerous
+  version: 2.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19989/default_b1f1fc9c4c59a78443018e01395203ba8c61dcde.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/src/llm_vm/agents/REBEL/requirements.txt
+  detection_source: src/llm_vm/agents/REBEL/requirements.txt
+  last_updated_by: AB3000
+  last_updated_on: 2023-05-23 04:45:14.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 0.27.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Carter Tazio Schonwald
+  last_updated_on: 2023-07-10 23:06:20.000000000 Z
+- name: python-Levenshtein
+  description: Python extension for computing string edit distances and similarities
+  package_url: https://pypi.org/project/python-Levenshtein
+  version: 0.21.1
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20140/default_927321425328d95d5d3f0c8b9fe47f1a2cffb5bf.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Vik
+  last_updated_on: 2023-11-21 13:28:10.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Vik
+  last_updated_on: 2023-11-21 13:28:10.000000000 Z
+- name: spacy
+  description: Industrial-strength Natural Language Processing
+  package_url: https://pypi.org/project/spacy
+  version: 3.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20263/default_1842575018db691e6f93d8a9a1aa65cdc2a55c20.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Max Schulkin
+  last_updated_on: 2023-10-11 09:43:42.000000000 Z
+- name: watchdog
+  description: Filesystem events monitoring
+  package_url: https://pypi.org/project/watchdog
+  version: 3.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19927/default_bb29140b72c0fb9789e567bba0ef0ffadeaef5d4.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Carter Tazio Schonwald
+  last_updated_on: 2023-07-11 23:01:54.000000000 Z
+- name: xdg
+  description: Variables defined by the XDG Base Directory Specification
+  package_url: https://pypi.org/project/xdg
+  version: 6.0.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20693/default_fd0d96b8d7182cbbe0406690ad6e9e7931692765.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Carter Tazio Schonwald
+  last_updated_on: 2023-07-10 23:06:20.000000000 Z
+- name: zipp
+  description: Backport of pathlib-compatible object wrapper for zip files
+  package_url: https://pypi.org/project/zipp
+  version: 3.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20247/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
+  detection_source_url: https://github.com/LokeshJonnakuti/LLM-VM/blob/main/src/llm_vm/agents/REBEL/requirements.txt
+  detection_source: src/llm_vm/agents/REBEL/requirements.txt
+  last_updated_by: AB3000
+  last_updated_on: 2023-05-23 04:45:14.000000000 Z
